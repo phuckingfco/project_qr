@@ -36,7 +36,7 @@ st.title("🎂 Chúc em ngày Quốc tế thiếu nhi thật nhiều niềm vui.
 if st.button('Nhấn vào đây, có bất ngờ dành cho em á'):
     st.balloons() # Hiệu ứng bóng bay
     st.success("Cảm ơn vì đã luôn là một người bạn tuyệt vời! Chúc em mọi điều tốt đẹp nhất!")    
-    st.image("anh.jpg", caption="chắc e sẽ nhận ra người trong ảnh mà đk")
+    st.image("anh.jpg", caption="chắc e sẽ nhận ra người trong ảnh mà đk(khung cảnh chỉ là minh họa)")
     st.image("ngoc_han_phongcanh.png",  caption="Nhìn quen lắm đk")
     st.image("ki_niem_ff.png",  caption="Kĩ niệm năm ngoái")
     st.image("tn_dautien.png",  caption="tn đầu tiên")
