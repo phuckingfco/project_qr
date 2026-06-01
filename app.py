@@ -1,16 +1,24 @@
 import streamlit as st
 
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+# 1. Phần ẩn giao diện và ép màu chữ (Giữ lại để web nhìn chuyên nghiệp)
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
+            
+            /* Ép chữ thành màu trắng để không bao giờ bị mờ */
+            .stApp, .stMarkdown, .stText, p, div, h1, h2, h3 {
+                color: #FFFFFF !important; 
+            }
+            
+            /* Tạo background tối sang trọng cho app */
+            .stApp {
+                background-color: #1E1E1E !important;
+            }
             </style>
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-
-st.set_page_config(layout="wide")
 
 st.title("🎂 Chúc em ngày Quốc tế thiếu nhi thật nhiều niềm vui. Dù lớn rồi nhưng vẫn luôn là một cô bé hạnh phúc nhé!")
 
