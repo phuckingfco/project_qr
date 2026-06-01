@@ -17,15 +17,25 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             header {visibility: hidden;}
             
-            /* Màu nền xám xanh nhẹ nhàng, không quá gắt */
+            /* Màu nền xám xanh */
             .stApp {
                 background-color: #2C3E50 !important;
             }
             
-            /* Ép chữ thành màu trắng nhạt (không phải trắng tinh) để dễ đọc */
+            /* Chữ trắng, to, rõ */
             .stApp, .stMarkdown, .stText, p, div, h1, h2, h3 {
                 color: #ECF0F1 !important; 
                 font-size: 20px !important;
+            }
+
+            /* ĐIỀU CHỈNH NÚT BẤM */
+            div.stButton > button {
+                background-color: #E74C3C !important; /* Màu đỏ cam nổi bật */
+                color: white !important;              /* Chữ màu trắng */
+                font-weight: bold !important;         /* Chữ đậm */
+                border: none !important;              /* Bỏ viền */
+                border-radius: 10px !important;       /* Bo tròn góc */
+                padding: 10px 20px !important;
             }
             </style>
             """
