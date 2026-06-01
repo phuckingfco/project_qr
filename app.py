@@ -4,7 +4,6 @@ st.title("🎂 Chúc em ngày Quốc tế thiếu nhi thật nhiều niềm vui.
 
 if st.button('Nhấn vào đây để nhận quà bất ngờ'):
     st.balloons() # Hiệu ứng bóng bay
-    st.success("Cảm ơn vì đã luôn là một người bạn tuyệt vời! Chúc bạn mọi điều tốt đẹp nhất!")
-    
+    st.success("Cảm ơn vì đã luôn là một người bạn tuyệt vời! Chúc bạn mọi điều tốt đẹp nhất!")    
     st.image("anh.jpg")
     st.video("https://www.youtube.com/watch?v=PWy4sxLpl58")
