@@ -3,9 +3,7 @@ import streamlit as st
 st.markdown("""
     <style>
     .stApp {
-        background-image: url("https://raw.githubusercontent.com/username/ten-repo/main/background.jpg");
-        background-size: cover;
-        background-position: center;
+        background: linear-gradient(135deg, #fce4ec, #e3f2fd);
     }
     </style>
     """, unsafe_allow_html=True)
