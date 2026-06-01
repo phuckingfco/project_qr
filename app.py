@@ -13,6 +13,15 @@ hide_streamlit_style = """
             }
             </style>
             """
+st.markdown("""
+    <style>
+    .stApp {
+        background-image: url("https://raw.githubusercontent.com/username/ten-repo/main/background.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 hide_streamlit_style = """
             <style>
