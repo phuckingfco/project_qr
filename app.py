@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎂 Chúc mừng ngày 1/6, người anh em!")
+st.title("🎂 "Chúc em ngày Quốc tế thiếu nhi thật nhiều niềm vui. Dù lớn rồi nhưng vẫn luôn là một cô bé hạnh phúc nhé!"")
 
 if st.button('Nhấn vào đây để nhận quà bất ngờ'):
     st.balloons() # Hiệu ứng bóng bay
@@ -8,3 +8,4 @@ if st.button('Nhấn vào đây để nhận quà bất ngờ'):
     
     # Dòng này là chìa khóa để hiện video của bạn
     st.video("https://www.youtube.com/watch?v=PWy4sxLpl58")
+    st.image("hinh_anh.jpg", caption="Phong cảnh tuyệt đẹp dành cho bạn")
