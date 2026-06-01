@@ -34,7 +34,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.title("🎂 Chúc em ngày Quốc tế thiếu nhi thật nhiều niềm vui. Dù lớn rồi nhưng vẫn luôn là một cô bé hạnh phúc nhé!")
 
-if st.button('Nhấn vào đây để nhận quà bất ngờ'):
+if st.button('Nhấn vào đây, có bất ngờ dành cho em á'):
     st.balloons() # Hiệu ứng bóng bay
     st.success("Cảm ơn vì đã luôn là một người bạn tuyệt vời! Chúc em mọi điều tốt đẹp nhất!")    
     st.image("anh.jpg", caption="chắc e sẽ nhận ra người trong ảnh mà đk")
