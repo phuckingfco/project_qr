@@ -17,15 +17,15 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             header {visibility: hidden;}
             
-            /* Dùng biến hệ thống --text-color để chữ tự đổi màu theo nền của người dùng */
-            .stApp, .stMarkdown, .stText, p, div, h1, h2, h3 {
-                color: var(--text-color) !important; 
-                font-size: 20px !important;
+            /* Màu nền xám xanh nhẹ nhàng, không quá gắt */
+            .stApp {
+                background-color: #2C3E50 !important;
             }
             
-            /* Tăng kích thước tiêu đề */
-            h1 {
-                font-size: 40px !important;
+            /* Ép chữ thành màu trắng nhạt (không phải trắng tinh) để dễ đọc */
+            .stApp, .stMarkdown, .stText, p, div, h1, h2, h3 {
+                color: #ECF0F1 !important; 
+                font-size: 20px !important;
             }
             </style>
             """
