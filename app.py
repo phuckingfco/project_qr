@@ -51,4 +51,7 @@ if st.button('Nhấn vào đây, có bất ngờ dành cho em á'):
     st.image("ki_niem_ff.png",  caption="Kĩ niệm năm ngoái")
     st.image("tn_dautien.png",  caption="tn đầu tiên")
     st.image("loi_hua.png",  caption="Lời hứa hqua")
+    st.image("ptr_hh.png",  caption="Ptr Hóa Học")
+    st.image("tinh_cach.png",  caption="Tính cách của tôi")
+    st.image("tinh_cach_cua_han.png",  caption="Tính cách của Hân")
     st.video("https://www.youtube.com/watch?v=PWy4sxLpl58")
