@@ -13,18 +13,20 @@ st.set_page_config(layout="wide")
 
 hide_streamlit_style = """
             <style>
+            /* Ẩn các menu mặc định */
             #MainMenu {visibility: hidden;}
             footer {visibility: hidden;}
             header {visibility: hidden;}
             
-            /* Ép chữ thành màu trắng để không bao giờ bị mờ */
-            .stApp, .stMarkdown, .stText, p, div, h1, h2, h3 {
-                color: #FFFFFF !important; 
-            }
-            
-            /* Tạo background tối sang trọng cho app */
+            /* Ép nền trang web thành màu tối (Xám đậm) */
             .stApp {
                 background-color: #1E1E1E !important;
+            }
+            
+            /* Ép chữ thành màu trắng và chỉnh kích thước */
+            .stApp, .stMarkdown, .stText, p, div, h1, h2, h3 {
+                color: #FFFFFF !important; 
+                font-size: 20px !important; 
             }
             </style>
             """
