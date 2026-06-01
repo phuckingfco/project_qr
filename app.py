@@ -1,12 +1,19 @@
 import streamlit as st
 
-st.markdown("""
-    <style>
-    .stApp {
-        background: linear-gradient(135deg, #fce4ec, #e3f2fd);
-    }
-    </style>
-    """, unsafe_allow_html=True)
+# Đoạn mã CSS này tự động đổi màu chữ tùy theo chế độ nền
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            
+            /* Tự động điều chỉnh màu chữ theo nền */
+            .stApp {
+                color: var(--text-color);
+            }
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
