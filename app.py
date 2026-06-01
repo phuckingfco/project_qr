@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🎂 "Chúc em ngày Quốc tế thiếu nhi thật nhiều niềm vui. Dù lớn rồi nhưng vẫn luôn là một cô bé hạnh phúc nhé!"")
+st.title("🎂 Chúc em ngày Quốc tế thiếu nhi thật nhiều niềm vui. Dù lớn rồi nhưng vẫn luôn là một cô bé hạnh phúc nhé!")
 
 if st.button('Nhấn vào đây để nhận quà bất ngờ'):
     st.balloons() # Hiệu ứng bóng bay
