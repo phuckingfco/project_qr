@@ -1,6 +1,16 @@
 import streamlit as st
 
-# 1. Phần ẩn giao diện và ép màu chữ (Giữ lại để web nhìn chuyên nghiệp)
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+st.set_page_config(layout="wide")
+
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
