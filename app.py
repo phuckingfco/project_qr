@@ -53,5 +53,5 @@ if st.button('Nhấn vào đây, có bất ngờ dành cho em á'):
     st.image("loi_hua.png",  caption="Lời hứa hqua")
     st.video("https://www.youtube.com/watch?v=PWy4sxLpl58")
     st.markdown("---") # Tạo một đường kẻ ngang ngăn cách cho đẹp
-    st.write("Chào người bạn thân yêu của mình,")
+    st.write("Cảm ơn vì đã xem hết")
     st.markdown("### Một năm chỉ có 1 ngày thôi, hãy tận hưởng mọi điều ngọt ngào nhất nhé!")
