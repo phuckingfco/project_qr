@@ -8,4 +8,4 @@ if st.button('Nhấn vào đây để nhận quà bất ngờ'):
     
     # Dòng này là chìa khóa để hiện video của bạn
     st.video("https://www.youtube.com/watch?v=PWy4sxLpl58")
-    st.image("hinh_anh.jpg", caption="Phong cảnh tuyệt đẹp dành cho bạn")
+    st.image("ngoc_han_phong_canh.jpg", caption="Nhìn quen hok, đẹp lắm đó, anh cũng xin lỗi vì tự ý xem ảnh em ")
