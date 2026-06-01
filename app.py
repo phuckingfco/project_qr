@@ -1,6 +1,14 @@
 import streamlit as st
 
-# 1. Dán code ẩn giao diện vào đây (ngay dưới import)
+st.markdown("""
+    <style>
+    .stApp {
+        background-image: url("https://raw.githubusercontent.com/username/ten-repo/main/background.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
